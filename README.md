@@ -21,13 +21,7 @@ Hexadecimal and binary output formats
 
 Unique key generation for each character
 
-Simple command-line interface
-
-### Project Structure
-text
-cryptography-project
--- message.py     
--- README.md      
+Simple command-line interface  
 
 ### Technical Details
 The encryption process:
