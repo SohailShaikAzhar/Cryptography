@@ -25,7 +25,7 @@ Simple command-line interface
 
 ### Project Structure
 text
-cryptography-project/
+cryptography-project
 -- message.py     
 -- README.md      
 
