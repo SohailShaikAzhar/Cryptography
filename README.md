@@ -26,9 +26,8 @@ Simple command-line interface
 ### Project Structure
 text
 cryptography-project/
-├── encryption.py      # Main encryption implementation
-├── README.md          # Project documentation
-└── requirements.txt   # Python dependencies (none currently)
+├── encryption.py     
+└── README.md      
 
 ### Technical Details
 The encryption process:
