@@ -26,8 +26,8 @@ Simple command-line interface
 ### Project Structure
 text
 cryptography-project/
-├── encryption.py     
-└── README.md      
+-- message.py     
+-- README.md      
 
 ### Technical Details
 The encryption process:
