@@ -55,9 +55,10 @@ def main():
     map_keys = list(encryption_map.keys())
     map_values = list(encryption_map.values())
 
-    ''' To remove the ambiguity from the code when a key generates 0 in the start
-        I have removed the value starts with 0 and then creates a new key until it dosen't starts with 0
-    '''
+    """
+    To remove the ambiguity from the code when a key generates 0 at the start
+    I have removed the value that starts with 0 and then created a new key so that it doesn't start with 0
+    """
     map_key = []
 
     for i in map_keys:
