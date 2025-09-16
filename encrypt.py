@@ -55,6 +55,22 @@ def main():
     map_keys = list(encryption_map.keys())
     map_values = list(encryption_map.values())
 
+    ''' To remove the ambiguity from the code when a key generates 0 in the start
+        I have removed the value starts with 0 and then creates a new key until it dosen't starts with 0
+    '''
+    map_key = []
+
+    for i in map_keys:
+        if str(i[0]) == "0":
+            new_value = str(token_bytes(4).hex())
+            while new_value[0] == "0":
+                new_value = str(token_bytes(4).hex())
+            map_key.append(new_value)
+        else:
+            map_key.append(i)
+
+    map_keys = map_key
+
     # Combine keys and values for each character
     encrypted_text = []
     for i in range(len(map_keys)):
