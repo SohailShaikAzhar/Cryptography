@@ -8,22 +8,32 @@ This project implements a custom cryptographic system with the following process
 Plain Text → Encrypt → Binary Cipher Text → Decrypt → Plain Text
 ## 📋 Project Status
 ### Day 1 - Foundation
-✅ Initial Encryption Logic - Basic encryption implementation
-✅ Initial Structure - Core framework established (with some bugs and incomplete features)
+✅ Initial Encryption Logic - Basic encryption implementation.
+
+✅ Initial Structure - Core framework established (with some bugs and incomplete features).
 
 ### Day 2 - Core Implementation
-✅ Complete Encryption System - Fully functional encryption module
-✅ Complete Decryption System - Fully functional decryption module
-✅ Cryptographic Security - Uses cryptographically secure random number generation (CSPRNG)
-✅ Key Management - Proper key generation, handling, and storage mechanisms
-✅ Binary Encoding - Fixed binary encoding/decoding issues for reliable data processing
-✅ Standalone Modules - Separate, well-organized encryption and decryption files
+✅ Complete Encryption System - Fully functional encryption module.
+
+✅ Complete Decryption System - Fully functional decryption module.
+
+✅ Cryptographic Security - Uses cryptographically secure random number generation (CSPRNG).
+
+✅ Key Management - Proper key generation, handling, and storage mechanisms.
+
+✅ Binary Encoding - Fixed binary encoding/decoding issues for reliable data processing.
+
+✅ Standalone Modules - Separate, well-organized files for encryption and decryption.
 
 ### Day 3 - Security Enhancements
-✅ Zero-Prefix Prevention - Implemented protection against zero-byte prefixes in generated values
-✅ Robust Key Validation - Added while-loop validation to ensure generated keys never start with zero
-✅ Byte-Level Security - Direct byte manipulation for efficient zero-byte detection
-✅ Deterministic Output - Guaranteed non-zero starting bytes for all cryptographic values
+✅ Zero-Prefix Prevention - Implemented protection against zero-byte prefixes in generated values.
+
+✅ Robust Key Validation - Added while-loop validation to ensure generated keys never start with zero.
+
+✅ Byte-Level Security - Direct byte manipulation for efficient zero-byte detection.
+
+✅ Deterministic Output - Guaranteed non-zero starting bytes for all cryptographic values.
+
 
 ## Features
 Text encryption using dual-phase key encryption
